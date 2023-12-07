@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(
+    106.37deg,
+    #ffe1bc 29.63%,
+    #ffcfd1 51.55%,
+    #f3c6f1 90.85%
+  );
+}
+
+.rwrapper {
+    position: relative;
+    width: 400px;
+    height: 650px;
+    background: transparent;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, .37);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;;
+}
+
+/* Firstname */
+.input-box-rfirstname .icon-user {
+    position: absolute;
+    right: 45px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+
+.input-box-rfirstname {
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box-rfirstname label {
+    position: absolute;
+    top: 32%;
+    left: 35px;
+    transform: translateY(-375%);
+    font-size: 1em;
+    pointer-events: none;
+    color: #fff;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+}
+
+.input-box-rfirstname input:focus~label,
+.input-box-rfirstname input:valid~label {
+    top: 180px;
+}
+
+.input-box-rfirstname input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+/* Lastname */
+.input-box-rlastname .icon-user {
+    position: absolute;
+    right: 45px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+
+.input-box-rlastname {
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box-rlastname label {
+    position: absolute;
+    top: 45%;
+    left: 35px;
+    transform: translateY(-375%);
+    font-size: 1em;
+    pointer-events: none;
+    color: #fff;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+}
+
+.input-box-rlastname input:focus~label,
+.input-box-rlastname input:valid~label {
+    top: 260px;
+}
+
+.input-box-rlastname input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+
+/* Username */
+.input-box-rusername .icon-user {
+    position: absolute;
+    right: 45px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+
+.input-box-rusername {
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box-rusername label {
+    position: absolute;
+    top: 58%;
+    left: 35px;
+    transform: translateY(-375%);
+    font-size: 1em;
+    pointer-events: none;
+    color: #fff;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+}
+
+.input-box-rusername input:focus~label,
+.input-box-rusername input:valid~label {
+    top: 345px;
+}
+
+.input-box-rusername input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+/* Password */
+.input-box-rpassword .icon-password {
+    position: absolute;
+    right: 45px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+
+.input-box-rpassword {
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box-rpassword label {
+    position: absolute;
+    top: 58%;
+    left: 35px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    color: #fff;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+}
+
+.input-box-rpassword input:focus~label,
+.input-box-rpassword input:valid~label {
+    top: 350px;
+}
+
+.input-box-rpassword input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+/* Confirmed Password */
+.input-box-rcpassword .icon-password {
+    position: absolute;
+    right: 45px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+
+.input-box-rcpassword {
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box-rcpassword label {
+    position: absolute;
+    top: 70%;
+    left: 35px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    color: #fff;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+}
+
+.input-box-rcpassword input:focus~label,
+.input-box-rcpassword input:valid~label {
+    top: 432px;
+}
+
+.input-box-rcpassword input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+/* Register */
+/* button {
+    width: 100%;
+    height: 45px;
+    background: #fa709a;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+} */
+
+/* Login */
+.rlogin-link {
+    font-size: .9em;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0 10px;
+}
+
+.rlogin-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rlogin-link p a:hover {
+    text-decoration: underline;
+}
+
+/* Error */
+.rwrapper.shake,
+.input-box-rpassword.shake .icon-password,
+.input-box-rpassword.shake input,
+.input-box-rcpassword.shake .icon-password,
+.input-box-rcpassword.shake input {
+  animation: shake 0.5s ease-in-out;
+  color: red;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25%,
+    75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }

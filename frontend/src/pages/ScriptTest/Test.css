@@ -1,0 +1,26 @@
+.Test{
+    all: inherit;
+    padding-top: 1rem;
+    display: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+}
+
+h1 {
+    text-align: left;
+  }
+
+@media screen and (max-width: 1200px) {
+    .Test{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .Test{
+        align-items: center;
+    }
+}

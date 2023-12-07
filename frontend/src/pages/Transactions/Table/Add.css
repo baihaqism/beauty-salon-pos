@@ -1,0 +1,41 @@
+.logoTransactions {
+    display: flex;
+    height: 5rem;
+    padding: 0px 0px 8px;
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: left;
+    height: 4%;
+    cursor: default;
+  }
+  .logoTransactions > span > span {
+    color: var(--pink);
+  }
+  
+  .logoTransactions > img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    outline: auto;
+    outline-color: pink;
+  }
+
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    .print-content,
+    .print-content * {
+      visibility: visible;
+    }
+    .print-content {
+      position: absolute;
+      width: 1080px;
+      height: 360px;
+      left: 2px;
+    }
+  }
+  
