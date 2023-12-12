@@ -6,15 +6,15 @@ The Beauty Salon POS Project - Admin Dashboard is a comprehensive software solut
 
 - **Transactions**: The admin dashboard allows salon staff to manage transactions efficiently. It provides features for recording and tracking sales, creating invoices, processing payments, and generating receipts. The transaction history is stored for easy reference and reporting.
 
-- **Expenses**: The system enables salon owners and administrators to track and manage expenses. It provides a way to record and categorize different types of expenses, such as rent, utilities, supplies, and employee salaries. This feature helps in monitoring and analyzing the salon's financial health.
+- **Expenses**: The system enables salon owners and administrators to track and manage expenses related to purchasing products. It provides a way to record and categorize different types of expenses, such as the cost of buying beauty products, rent, utilities, supplies, and employee salaries. This feature helps in monitoring and analyzing the salon's financial health by keeping track of the expenses incurred.
 
-- **Services**: The admin dashboard includes a service management module that allows users to define and manage the services offered by the salon. It provides options to add, edit, and remove services, set pricing, duration, and other relevant details. This feature helps in maintaining an up-to-date service menu.
+- **Services**: The admin dashboard includes a service management module that allows users to view the availability of services based on product stock. It provides options to add, edit, and remove services, set pricing, and other relevant details. This feature helps in maintaining an up-to-date service menu and ensures that services are available based on the availability of the required beauty products.
 
 - **Products**: The system includes a product management feature that enables salon staff to manage the inventory of beauty products. It allows users to add, update, and remove products, track stock levels, set pricing, and generate reports on product sales and inventory status.
 
-- **User Management**: The admin dashboard provides user management capabilities, allowing salon owners or administrators to manage user accounts and access permissions. It enables the creation of user profiles, assignment of roles, and control over the features and functionality accessible to different users.
+- **User Management**: The admin dashboard provides user management capabilities, allowing salon owners or administrators to manage user accounts and access permissions. It enables the creation of user profiles and allows for the modification of user information such as first name, last name, username, and password. Additionally, the user management feature allows for the assignment of roles, such as the role of an Admin, which grants access to specific features and functionality within the admin dashboard.
 
-- **Customer Management**: The system includes a customer management module that allows salon staff to maintain a database of customer information. It provides features for adding, updating, and searching for customer records, storing contact details, appointment history, and any additional notes or preferences.
+- **Customer Management**: The system includes a customer management module that allows salon staff to maintain a database of customer information. It provides features for adding, updating, and searching for customer records. The customer management feature allows salon staff to store essential contact details such as customer names, email addresses, and phone numbers. Additionally, the module may include a section for adding any additional notes or preferences related to each customer.
 
 ## Technologies Used
 
