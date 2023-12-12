@@ -50,7 +50,3 @@ Make sure to set up a MySQL database using PHPMyAdmin or any other MySQL adminis
 If you would like to contribute to the Beauty Salon POS Project - Admin Dashboard, please follow the guidelines outlined in the project's contributing documentation. This may include information on how to report bugs, suggest new features, and submit pull requests.
 
 If you have any further questions or need additional assistance, feel free to ask!
-
-## Contributing
-
-If you would like to contribute to the Beauty Salon POS Project - Admin Dashboard, please follow the guidelines outlined in the project's contributing documentation. This may include information on how to report bugs, suggest new features, and submit pull requests.
